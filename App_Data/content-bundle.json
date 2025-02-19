@@ -1,0 +1,657 @@
+{
+    "total": 20,
+    "items": [
+        {
+            "contentType": "module",
+            "name": "Gestational Diabetes Mellitus",
+            "createDate": "2025-01-16T13:01:40.6707963",
+            "updateDate": "2025-01-18T18:23:41.1892768",
+            "route": {
+                "path": "/gestational-diabetes-mellitus/",
+                "startItem": {
+                    "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                    "path": "modules"
+                }
+            },
+            "id": "f1465288-2048-4f03-b7a4-eb1b80464399",
+            "properties": {
+                "moduleId": "gestational-diabetes-mellitus_1737204806521",
+                "version": "1737204806521",
+                "icon": [
+                    {
+                        "focalPoint": null,
+                        "crops": [],
+                        "id": "e729d718-e721-40f5-a036-ae3ecfad85df",
+                        "name": "Screenshot 2025-01-03 115011.png",
+                        "mediaType": "Image",
+                        "url": "/media/s2oh4uki/screenshot-2025-01-03-115011.png",
+                        "extension": "png",
+                        "width": 1655,
+                        "height": 646,
+                        "bytes": 87701,
+                        "properties": {}
+                    }
+                ],
+                "description": {
+                    "markup": "\u003Cpre\u003E\u003Ccode class=\u0022language-json\u0022\u003EGestational Diabetes Mellitus\u003C/code\u003E\u003C/pre\u003E",
+                    "blocks": []
+                },
+                "learningpoints": [
+                    {
+                        "contentType": "learningPoints",
+                        "name": "KLP1",
+                        "createDate": "2025-01-16T16:35:34.3100586",
+                        "updateDate": "2025-01-17T10:43:38.1014524",
+                        "route": {
+                            "path": "/klp1/",
+                            "startItem": {
+                                "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+                                "path": "key-learning-points"
+                            }
+                        },
+                        "id": "0b651157-53d6-442c-9c9e-01399faa37ae",
+                        "properties": {}
+                    }
+                ],
+                "actionCards": [
+                    {
+                        "contentType": "actionCard",
+                        "name": "Action Card 1",
+                        "createDate": "2025-01-16T12:55:16.0996896",
+                        "updateDate": "2025-01-16T16:17:17.6812029",
+                        "route": {
+                            "path": "/action-card-1/",
+                            "startItem": {
+                                "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                                "path": "action-cards"
+                            }
+                        },
+                        "id": "b343352e-ba88-4d48-b9b0-a8231debe26c",
+                        "properties": {}
+                    }
+                ],
+                "procedures": [
+                    {
+                        "contentType": "procedure",
+                        "name": "Procedure 1",
+                        "createDate": "2025-01-16T16:05:36.5152008",
+                        "updateDate": "2025-01-16T16:19:00.0951059",
+                        "route": {
+                            "path": "/procedure-1/",
+                            "startItem": {
+                                "id": "e3fedddb-7363-4a57-a503-cc8c4e4eac9f",
+                                "path": "procedures"
+                            }
+                        },
+                        "id": "bfb01973-8e94-436f-b2bc-9dc012765334",
+                        "properties": {}
+                    }
+                ],
+                "drugs": [
+                    {
+                        "contentType": "drugs",
+                        "name": "Adrenaline",
+                        "createDate": "2025-01-16T15:19:45.7731138",
+                        "updateDate": "2025-01-16T16:17:39.2104899",
+                        "route": {
+                            "path": "/adrenaline/",
+                            "startItem": {
+                                "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                                "path": "drugs"
+                            }
+                        },
+                        "id": "e6f19c43-ebc3-4f01-bb26-a995dc4012e4",
+                        "properties": {}
+                    }
+                ],
+                "videos": [
+                    {
+                        "focalPoint": null,
+                        "crops": [],
+                        "id": "875dc05a-0943-4634-a091-ab4e4f55263a",
+                        "name": "icomoon.ttf - Safe Delivery App - Visual Studio Code 2024-06-18 12-16-21.mp4",
+                        "mediaType": "umbracoMediaVideo",
+                        "url": "/media/zvvjkoi2/icomoonttf-safe-delivery-app-visual-studio-code-2024-06-18-12-16-21.mp4",
+                        "extension": "mp4",
+                        "width": null,
+                        "height": null,
+                        "bytes": 3639033,
+                        "properties": {}
+                    },
+                    {
+                        "focalPoint": {
+                            "left": 0.5,
+                            "top": 0.5
+                        },
+                        "crops": [],
+                        "id": "4bc37605-abdb-4791-9924-6d84730087f0",
+                        "name": "Images",
+                        "mediaType": "Image",
+                        "url": "/media/rk4il5ns/screenshot-2024-12-16-152435.png",
+                        "extension": "png",
+                        "width": 594,
+                        "height": 420,
+                        "bytes": 69195,
+                        "properties": {}
+                    }
+                ],
+                "quiz": [
+                    {
+                        "contentType": "quizPage",
+                        "name": "Quiz 1",
+                        "createDate": "2025-01-16T16:10:47.2510742",
+                        "updateDate": "2025-01-17T11:33:26.3151782",
+                        "route": {
+                            "path": "/quiz-1/",
+                            "startItem": {
+                                "id": "d9cbd5d3-24d3-4be3-a621-7dc1ca5bf3a2",
+                                "path": "quiz-page"
+                            }
+                        },
+                        "id": "dcf8f292-ba3e-4263-adb1-71c5e4b593aa",
+                        "properties": {}
+                    }
+                ]
+            },
+            "cultures": {
+                "en-US": {
+                    "path": "/gestational-diabetes-mellitus/",
+                    "startItem": {
+                        "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                        "path": "modules"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "module",
+            "name": "New Module",
+            "createDate": "2025-01-18T17:34:06.6048968",
+            "updateDate": "2025-01-18T17:34:44.8160391",
+            "route": {
+                "path": "/new-module/",
+                "startItem": {
+                    "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                    "path": "modules"
+                }
+            },
+            "id": "7e62aec2-f6ba-4766-9be8-6a4b5a44beb1",
+            "properties": {
+                "moduleId": "new-module_1737201874414",
+                "version": "1737201884686",
+                "icon": null,
+                "description": null,
+                "learningpoints": null,
+                "actionCards": null,
+                "procedures": null,
+                "drugs": null,
+                "videos": null,
+                "quiz": null
+            },
+            "cultures": {
+                "en-US": {
+                    "path": "/new-module/",
+                    "startItem": {
+                        "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                        "path": "modules"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "module",
+            "name": "Neonatal Care",
+            "createDate": "2025-01-30T23:17:33.6279108",
+            "updateDate": "2025-01-30T23:24:38.8726557",
+            "route": {
+                "path": "/neonatal-care/",
+                "startItem": {
+                    "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                    "path": "modules"
+                }
+            },
+            "id": "db71a224-a8dd-4577-b66a-bc975cf4a90f",
+            "properties": {
+                "moduleId": "neonatal-care_1738",
+                "version": "173825",
+                "icon": [
+                    {
+                        "focalPoint": {
+                            "left": 0.5,
+                            "top": 0.5
+                        },
+                        "crops": [],
+                        "id": "59ec3aca-76b4-4085-b3d4-69e9c5da19a9",
+                        "name": "Image",
+                        "mediaType": "Image",
+                        "url": "/media/ixykv143/screenshot-2025-01-12-222823.png",
+                        "extension": "png",
+                        "width": 1347,
+                        "height": 810,
+                        "bytes": 66815,
+                        "properties": {}
+                    }
+                ],
+                "description": {
+                    "markup": "\u003Cp\u003ENeonatal care\u003C/p\u003E",
+                    "blocks": []
+                },
+                "learningpoints": [
+                    {
+                        "contentType": "learningPoints",
+                        "name": "KLP1",
+                        "createDate": "2025-01-16T16:35:34.3100586",
+                        "updateDate": "2025-01-17T10:43:38.1014524",
+                        "route": {
+                            "path": "/klp1/",
+                            "startItem": {
+                                "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+                                "path": "key-learning-points"
+                            }
+                        },
+                        "id": "0b651157-53d6-442c-9c9e-01399faa37ae",
+                        "properties": {}
+                    }
+                ],
+                "actionCards": null,
+                "procedures": null,
+                "drugs": null,
+                "videos": null,
+                "quiz": null
+            },
+            "cultures": {
+                "en-US": {
+                    "path": "/neonatal-care/",
+                    "startItem": {
+                        "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                        "path": "modules"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "drugsCollection",
+            "name": "Drugs",
+            "createDate": "2025-01-16T15:17:11.6257841",
+            "updateDate": "2025-01-16T15:17:11.6643721",
+            "route": {
+                "path": "/drugs/",
+                "startItem": {
+                    "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                    "path": "drugs"
+                }
+            },
+            "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+            "properties": {},
+            "cultures": {
+                "en-US": {
+                    "path": "/drugs/",
+                    "startItem": {
+                        "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                        "path": "drugs"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "keyLearningPoints",
+            "name": "Key Learning Points",
+            "createDate": "2025-01-16T15:53:17.8920937",
+            "updateDate": "2025-01-16T16:39:49.7971371",
+            "route": {
+                "path": "/key-learning-points/",
+                "startItem": {
+                    "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+                    "path": "key-learning-points"
+                }
+            },
+            "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+            "properties": {},
+            "cultures": {
+                "en-US": {
+                    "path": "/key-learning-points/",
+                    "startItem": {
+                        "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+                        "path": "key-learning-points"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "languages",
+            "name": "India-English",
+            "createDate": "2025-01-23T16:27:25.0814992",
+            "updateDate": "2025-01-30T23:16:24.147132",
+            "route": {
+                "path": "/india-english/",
+                "startItem": {
+                    "id": "ad2bd02b-403c-45d0-a2c3-8c157d2a6473",
+                    "path": "all-languages"
+                }
+            },
+            "id": "47f890ec-e850-4871-a35c-b7dc6ddf37c1",
+            "properties": {
+                "description": "India - English",
+                "learningPlatform": true,
+                "langId": "7ec65d25-3edc-dde4-c066-dfe92c798404",
+                "countryCode": "IN",
+                "latitude": "20.593684",
+                "longitude": "78.96288",
+                "version": 130,
+                "modules": [
+                    {
+                        "contentType": "module",
+                        "name": "Gestational Diabetes Mellitus",
+                        "createDate": "2025-01-16T13:01:40.6707963",
+                        "updateDate": "2025-01-18T18:23:41.1892768",
+                        "route": {
+                            "path": "/gestational-diabetes-mellitus/",
+                            "startItem": {
+                                "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                                "path": "modules"
+                            }
+                        },
+                        "id": "f1465288-2048-4f03-b7a4-eb1b80464399",
+                        "properties": {}
+                    },
+                    {
+                        "contentType": "module",
+                        "name": "New Module",
+                        "createDate": "2025-01-18T17:34:06.6048968",
+                        "updateDate": "2025-01-18T17:34:44.8160391",
+                        "route": {
+                            "path": "/new-module/",
+                            "startItem": {
+                                "id": "c9179f1a-9602-48f3-b7c3-5dd98bd9f375",
+                                "path": "modules"
+                            }
+                        },
+                        "id": "7e62aec2-f6ba-4766-9be8-6a4b5a44beb1",
+                        "properties": {}
+                    }
+                ],
+                "procedures": [
+                    {
+                        "contentType": "procedure",
+                        "name": "Procedure 1",
+                        "createDate": "2025-01-16T16:05:36.5152008",
+                        "updateDate": "2025-01-16T16:19:00.0951059",
+                        "route": {
+                            "path": "/procedure-1/",
+                            "startItem": {
+                                "id": "e3fedddb-7363-4a57-a503-cc8c4e4eac9f",
+                                "path": "procedures"
+                            }
+                        },
+                        "id": "bfb01973-8e94-436f-b2bc-9dc012765334",
+                        "properties": {}
+                    }
+                ],
+                "actionCards": [
+                    {
+                        "contentType": "actionCard",
+                        "name": "Action Card 1",
+                        "createDate": "2025-01-16T12:55:16.0996896",
+                        "updateDate": "2025-01-16T16:17:17.6812029",
+                        "route": {
+                            "path": "/action-card-1/",
+                            "startItem": {
+                                "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                                "path": "action-cards"
+                            }
+                        },
+                        "id": "b343352e-ba88-4d48-b9b0-a8231debe26c",
+                        "properties": {}
+                    },
+                    {
+                        "contentType": "actionCard",
+                        "name": "Action card 2",
+                        "createDate": "2025-01-16T13:21:39.6554906",
+                        "updateDate": "2025-01-16T16:17:22.0272012",
+                        "route": {
+                            "path": "/action-card-2/",
+                            "startItem": {
+                                "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                                "path": "action-cards"
+                            }
+                        },
+                        "id": "61857d4a-51c4-49a3-9a22-bcd8f4c82c87",
+                        "properties": {}
+                    }
+                ],
+                "drugs": [
+                    {
+                        "contentType": "drugs",
+                        "name": "Adrenaline",
+                        "createDate": "2025-01-16T15:19:45.7731138",
+                        "updateDate": "2025-01-16T16:17:39.2104899",
+                        "route": {
+                            "path": "/adrenaline/",
+                            "startItem": {
+                                "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                                "path": "drugs"
+                            }
+                        },
+                        "id": "e6f19c43-ebc3-4f01-bb26-a995dc4012e4",
+                        "properties": {}
+                    },
+                    {
+                        "contentType": "drugs",
+                        "name": "Albendazole",
+                        "createDate": "2025-01-16T15:20:29.3090006",
+                        "updateDate": "2025-01-16T16:17:42.8810892",
+                        "route": {
+                            "path": "/albendazole/",
+                            "startItem": {
+                                "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                                "path": "drugs"
+                            }
+                        },
+                        "id": "6405617e-46bb-4fcc-a0f1-bcf1199f2d4e",
+                        "properties": {}
+                    },
+                    {
+                        "contentType": "drugs",
+                        "name": "calphol",
+                        "createDate": "2025-01-17T11:31:35.4724625",
+                        "updateDate": "2025-01-17T11:31:35.5334258",
+                        "route": {
+                            "path": "/calphol/",
+                            "startItem": {
+                                "id": "4aae29af-1ec5-4170-a537-6e2f7acf5b5b",
+                                "path": "drugs"
+                            }
+                        },
+                        "id": "88150a47-f7c6-4130-ab8e-2e43bf30714e",
+                        "properties": {}
+                    }
+                ],
+                "keyLearningPoints": [
+                    {
+                        "contentType": "learningPoints",
+                        "name": "KLP1",
+                        "createDate": "2025-01-16T16:35:34.3100586",
+                        "updateDate": "2025-01-17T10:43:38.1014524",
+                        "route": {
+                            "path": "/klp1/",
+                            "startItem": {
+                                "id": "713210ec-a0e0-44cc-858a-7a3d01cbc205",
+                                "path": "key-learning-points"
+                            }
+                        },
+                        "id": "0b651157-53d6-442c-9c9e-01399faa37ae",
+                        "properties": {}
+                    }
+                ]
+            },
+            "cultures": {
+                "en-US": {
+                    "path": "/india-english/",
+                    "startItem": {
+                        "id": "ad2bd02b-403c-45d0-a2c3-8c157d2a6473",
+                        "path": "all-languages"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "languages",
+            "name": "India-Hindi",
+            "createDate": "2025-01-24T11:23:40.3645601",
+            "updateDate": "2025-01-24T11:23:41.0497031",
+            "route": {
+                "path": "/india-hindi/",
+                "startItem": {
+                    "id": "ad2bd02b-403c-45d0-a2c3-8c157d2a6473",
+                    "path": "all-languages"
+                }
+            },
+            "id": "77aa4ab9-3023-4705-881a-04b287de13a3",
+            "properties": {
+                "description": null,
+                "learningPlatform": false,
+                "langId": "a",
+                "countryCode": null,
+                "latitude": null,
+                "longitude": null,
+                "version": null,
+                "modules": null,
+                "procedures": null,
+                "actionCards": null,
+                "drugs": null,
+                "keyLearningPoints": null
+            },
+            "cultures": {
+                "en-US": {
+                    "path": "/india-hindi/",
+                    "startItem": {
+                        "id": "ad2bd02b-403c-45d0-a2c3-8c157d2a6473",
+                        "path": "all-languages"
+                    }
+                }
+            }
+        },
+        {
+            "contentType": "actionCardsCollection",
+            "name": "Action Cards",
+            "createDate": "2025-01-16T12:54:02.2895895",
+            "updateDate": "2025-01-16T13:02:19.6625347",
+            "route": {
+                "path": "/action-cards/",
+                "startItem": {
+                    "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                    "path": "action-cards"
+                }
+            },
+            "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+            "properties": {},
+            "cultures": {}
+        },
+        {
+            "contentType": "actionCard",
+            "name": "Action Card 1",
+            "createDate": "2025-01-16T12:55:16.0996896",
+            "updateDate": "2025-01-16T16:17:17.6812029",
+            "route": {
+                "path": "/action-card-1/",
+                "startItem": {
+                    "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                    "path": "action-cards"
+                }
+            },
+            "id": "b343352e-ba88-4d48-b9b0-a8231debe26c",
+            "properties": {
+                "cardId": "danger-signs_1486807603214",
+                "version": "1618227636329",
+                "description": {
+                    "markup": "\u003Cpre\u003E\u003Ccode class=\u0022language-json\u0022\u003EEmergency Signs\u003C/code\u003E\u003C/pre\u003E",
+                    "blocks": []
+                },
+                "icon": [
+                    {
+                        "focalPoint": null,
+                        "crops": [],
+                        "id": "e729d718-e721-40f5-a036-ae3ecfad85df",
+                        "name": "Screenshot 2025-01-03 115011.png",
+                        "mediaType": "Image",
+                        "url": "/media/s2oh4uki/screenshot-2025-01-03-115011.png",
+                        "extension": "png",
+                        "width": 1655,
+                        "height": 646,
+                        "bytes": 87701,
+                        "properties": {}
+                    }
+                ],
+                "chapters": {
+                    "items": [
+                        {
+                            "content": {
+                                "contentType": "chapters",
+                                "id": "4693a436-14ce-46ba-8c2d-acb9a5013e83",
+                                "properties": {
+                                    "chapterId": "_1486807614864",
+                                    "description": {
+                                        "markup": "\u003Cp\u003ENA\u003C/p\u003E",
+                                        "blocks": []
+                                    },
+                                    "content": {
+                                        "markup": "\u003Cpre\u003E\u003Ccode class=\u0022language-json\u0022\u003E\u0026lt;h3\u0026gt;Emergency signs for newborns\u0026lt;/h3\u0026gt;\u0026lt;h3\u0026gt;Airway\u0026lt;/h3\u0026gt;\u0026lt;p\u0026gt;Free and safe (no obstruction).\u0026lt;/p\u0026gt;\u0026lt;hr\u0026gt;\u0026lt;h3\u0026gt;Severe Respiratory Distress\u0026lt;/h3\u0026gt;\u0026lt;p\u0026gt;Apnoea (no breathing for more than 20 seconds).\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Respiratory rate slower than 20 or faster than 70 per minute.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Cyanosis.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Severe chest in-drawings.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Grunting.\u0026lt;/p\u0026gt;\u0026lt;hr\u0026gt;\u0026lt;h3\u0026gt;Circulation\u0026lt;/h3\u0026gt;\u0026lt;p\u0026gt;Signs of shock including:\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Pale colour.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Weak pulse.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Heart rate below 80 or above 160.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Capillary refill time more than 3 seconds.\u0026lt;/p\u0026gt;\u0026lt;hr\u0026gt;\u0026lt;h3\u0026gt;Convulsion and Unconsciousness\u0026lt;/h3\u0026gt;\u0026lt;p\u0026gt;Poor feeding/inability to suck.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Irritability.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Convulsions.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Decreased muscle tone.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Decreased consciousness.\u0026lt;/p\u0026gt;\u0026lt;p\u0026gt;Vomiting.\u0026lt;/p\u0026gt;\u0026lt;hr\u0026gt;\u0026lt;h3\u0026gt;Temperature\u0026lt;/h3\u0026gt;\u0026lt;p\u0026gt;Temperature below 36.5\u00B0C or above 37.5\u00B0C.\u0026lt;/p\u0026gt;\u003C/code\u003E\u003C/pre\u003E",
+                                        "blocks": []
+                                    }
+                                }
+                            },
+                            "settings": null
+                        }
+                    ]
+                }
+            },
+            "cultures": {}
+        },
+        {
+            "contentType": "actionCard",
+            "name": "Action card 2",
+            "createDate": "2025-01-16T13:21:39.6554906",
+            "updateDate": "2025-01-16T16:17:22.0272012",
+            "route": {
+                "path": "/action-card-2/",
+                "startItem": {
+                    "id": "406438a4-021c-410f-a59b-85faf0d0baab",
+                    "path": "action-cards"
+                }
+            },
+            "id": "61857d4a-51c4-49a3-9a22-bcd8f4c82c87",
+            "properties": {
+                "cardId": "1",
+                "version": "2",
+                "description": {
+                    "markup": "\u003Cp\u003ENA\u003C/p\u003E",
+                    "blocks": []
+                },
+                "icon": null,
+                "chapters": {
+                    "items": [
+                        {
+                            "content": {
+                                "contentType": "chapters",
+                                "id": "5c5a1cd4-f4dc-45e2-927d-4ac877b83b5a",
+                                "properties": {
+                                    "chapterId": "2",
+                                    "description": {
+                                        "markup": "\u003Cp\u003ENA\u003C/p\u003E",
+                                        "blocks": []
+                                    },
+                                    "content": {
+                                        "markup": "\u003Cp\u003ENA\u003C/p\u003E",
+                                        "blocks": []
+                                    }
+                                }
+                            },
+                            "settings": null
+                        }
+                    ]
+                }
+            },
+            "cultures": {}
+        }
+    ]
+}

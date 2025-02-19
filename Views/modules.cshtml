@@ -1,0 +1,138 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.Modules>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@using Umbraco.Cms.Core.Models.PublishedContent;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Umbraco Module</title>
+</head>
+<body>
+    <!-- Jumbotron, Title -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class='display-1'>@Model.Value("Title")</h1>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container">
+        <div class="row section">
+            <div class="col-md-12">
+                <p>@Model.Value("Description")</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grey Banner -->
+    <!-- Grey Banner -->
+<div class="container-fluid bg-light">
+    <div class="row section">
+        <div class="col-md-12 text-center">
+
+            <!-- Images -->
+            <div class="d-flex justify-content-center flex-wrap">
+                @if (Model.Value<IEnumerable<IPublishedContent>>("Imagefiles") is var imageFiles && imageFiles != null)
+                {
+                    foreach (var image in imageFiles)
+                    {
+                        <img src="@image.Url()" alt="@image.Name" class="img-fluid mx-2 my-2" style="max-width: 200px;">
+                    }
+                }
+                else
+                {
+                    <p>No images available.</p>
+                }
+            </div>
+
+            <!-- Videos -->
+            <div class="d-flex justify-content-center flex-wrap">
+                @if (Model.Value<IEnumerable<IPublishedContent>>("Videofiles") is var videoFiles && videoFiles != null)
+                {
+                    foreach (var video in videoFiles)
+                    {
+                        <video controls class="my-2" style="max-width: 300px;">
+                            <source src="@video.Url()" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    }
+                }
+                else
+                {
+                    <p>No videos available.</p>
+                }
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+
+<!-- Quiz Section -->
+<div class="container my-4">
+    <div class="row section">
+        <div class="col-md-12">
+            <h3>Quiz</h3>
+
+            <!-- Display Question -->
+            @{
+    // Perform an null-check on the field with alias ''
+    if (Model.HasValue("questions")){
+
+        <p>@(Model.Value("questions"))</p>
+    }
+}
+        
+  @{
+    var options = Model.Value<IEnumerable<string>>("options");
+    if (options == null || !options.Any())
+    {
+        <p>No options available.</p>
+    }
+    else
+    {
+        <ul>
+            @foreach (var item in options)
+            {
+                <li>@item</li>
+            }
+        </ul>
+    }
+}
+
+        </div>
+    </div>
+</div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-dark text-white">
+        <div class="container">
+            <div class="row section">
+                <div class="col-md-4 text-center">
+                    <ul class="footer-links">
+                        <li><a href="https://our.umbraco.com/documentation/" class="text-white">Developer Documentation</a></li>
+                        <li><a href="https://umbraco.com/training/" class="text-white">Training Courses</a></li>
+                        <li><a href="https://umbraco.com/products/free-umbraco-webinars/" class="text-white">Umbraco Webinars</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

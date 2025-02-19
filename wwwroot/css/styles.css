@@ -1,0 +1,129 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+/* Jumbotron */
+.jumbotron text-center jumbotron-fluid {
+    background-color: #f8f9fa;
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    max-width: 1200px;
+}
+
+/* Content Section */
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Grey Banner */
+.container-fluid.bg-light {
+    padding: 3rem 0;
+}
+
+/* Image and Video Alignment */
+.d-flex justify-content-center flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.d-flex justify-content-center flex-wrap img,
+.d-flex justify-content-center flex-wrap video {
+    margin: 10px;
+}
+
+.img-fluid {
+    max-width: 200px;
+    height: auto;
+}
+
+.video-fluid {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Dropdown Styling */
+select.form-control {
+    width: 200px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    padding: 30px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+}
+
+.footer .footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer .footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .jumbotron .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .video-fluid {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer .footer-links {
+        text-align: center;
+    }
+
+    select.form-control {
+        width: 100%;
+    }
+}
